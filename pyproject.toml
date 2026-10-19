@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinn-thermo"
+version = "1.0.0"
+description = "Input Convex Neural Networks (ICNN) for Helmholtz Free Energy & CAPE-OPEN Peng-Robinson EOS Engine"
+readme = "README.md"
+authors = [
+    { name = "Dhrubajyoti Chatterjee", email = "dhrubchatterjee16@gmail.com" }
+]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Science/Research"
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22.0",
+    "scipy>=1.9.0"
+]
+
+[project.optional-dependencies]
+api = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "pydantic>=2.0.0"
+]
+test = [
+    "pytest>=7.0.0"
+]
+
+[project.scripts]
+pinn-thermo = "pinn_thermo.cli:main"
