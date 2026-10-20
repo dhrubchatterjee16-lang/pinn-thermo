@@ -1,5 +1,10 @@
 # PINNthermo: Input Convex Neural Network (ICNN) Helmholtz Free Energy & CAPE-OPEN PR-EOS Engine
 
+[![CI](https://github.com/dhrubchatterjee16-lang/pinn-thermo/actions/workflows/ci.yml/badge.svg)](https://github.com/dhrubchatterjee16-lang/pinn-thermo/actions)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhrubchatterjee16-lang/pinn-thermo/blob/main/notebooks/quickstart.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 [![CI Tests](https://github.com/dhrubchatterjee16-lang/pinn-thermo/actions/workflows/ci.yml/badge.svg)](https://github.com/dhrubchatterjee16-lang/pinn-thermo)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
