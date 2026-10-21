@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use PINNthermo in your research, please cite it as below."
+authors:
+  - family-names: "Chatterjee"
+    given-names: "Dhrub"
+title: "PINNthermo: Input Convex Neural Network (ICNN) Helmholtz Free Energy & CAPE-OPEN PR-EOS Engine"
+version: 1.0.0
+date-released: 2026-10-20
+url: "https://github.com/dhrubchatterjee16-lang/pinn-thermo"
+keywords:
+  - physics-informed-neural-networks
+  - thermodynamics
+  - input-convex-neural-network
+  - sciml
+  - cape-open
